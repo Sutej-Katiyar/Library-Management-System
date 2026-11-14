@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a Seat | LMS</title>
+    <link rel="stylesheet" type="text/css" href="booking.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <h1><a href="Index.html" class="Menumain" id="LMS">LMS</a></h1>
+
+        <div class="Menu">
+            <a href="Index.html">Home</a>
+            <a href="catalogue.html">Catalogue</a>
+            <a href="booking.html">Booking</a>
+            <a href="Index.html#about">About Us</a>
+            <a href="Index.html#contact">Contact</a>
+        </div>
+    </header>
+
+    <section class="booking">
+        <h2>Book a Library Seat</h2>
+        <p>Select your preferred date, time slot and seat.</p>
+
+        <div class="booking-box">
+
+            <div class="details">
+                <h3>Booking Details</h3>
+
+                <label for="date">Select Date</label>
+                <input type="date" id="date">
+
+                <label for="time">Select Time Slot</label>
+                <select id="time">
+                    <option>09:00 AM - 11:00 AM</option>
+                    <option>11:00 AM - 01:00 PM</option>
+                    <option>01:00 PM - 03:00 PM</option>
+                    <option>03:00 PM - 05:00 PM</option>
+                    <option>05:00 PM - 07:00 PM</option>
+                </select>
+
+                <label for="resource">Resource</label>
+                <select id="resource">
+                    <option>Reading Hall</option>
+                    <option>Discussion Room</option>
+                    <option>Computer Section</option>
+                </select>
+            </div>
+
+            <div class="seat-section">
+                <h3>Select Your Seat</h3>
+
+                <div class="seat-map">
+                    <button class="seat available">A1</button>
+                    <button class="seat available">A2</button>
+                    <button class="seat booked">A3</button>
+                    <button class="seat available">A4</button>
+
+                    <button class="seat available">B1</button>
+                    <button class="seat booked">B2</button>
+                    <button class="seat available">B3</button>
+                    <button class="seat available">B4</button>
+
+                    <button class="seat available">C1</button>
+                    <button class="seat available">C2</button>
+                    <button class="seat available">C3</button>
+                    <button class="seat booked">C4</button>
+
+                    <button class="seat available">D1</button>
+                    <button class="seat available">D2</button>
+                    <button class="seat booked">D3</button>
+                    <button class="seat available">D4</button>
+                </div>
+
+                <div class="legend">
+                    <span><span class="legend-box available-box"></span> Available</span>
+                    <span><span class="legend-box booked-box"></span> Booked</span>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="summary">
+            <h3>Booking Summary</h3>
+            <p><strong>Seat:</strong> Select a seat</p>
+            <p><strong>Date:</strong> Select a date</p>
+            <p><strong>Time:</strong> Select a time slot</p>
+            <a href="#" class="btn">Confirm Booking</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>CSE326 Project | Lovely Professional University</p>
+        <p>&copy; 2026 LMS - Library Seat &amp; Resource Booking System</p>
+    </footer>
+
+</body>
+</html>
