@@ -1,0 +1,92 @@
+header {
+    background-color: #3B82F6;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-family: "Google Sans",sans-serif;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 50px;
+    padding-left: 35px;
+}
+#LMS {
+    padding-left: 10px;
+    font-style: normal;
+}
+.Menu{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.Menu a {
+    text-decoration: none;
+    color: #F8FAFC;
+    margin-left: 15px;
+    font-size: 16px;
+}
+.Menumain {
+    text-decoration: none;
+    color: #F8FAFC;
+}
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    color: #1E293B;
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #EFF6FF;
+}
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+.hero p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+.btn {
+    background-color: #3B82F6;
+    color: #F8FAFC;
+    text-decoration: none;
+    padding: 12px 28px;
+    border-radius: 5px;
+}
+
+.about {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.features {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #F8FAFC;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.card {
+    background-color: white;
+    width: 220px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+footer {
+    background-color: #3B82F6;
+    color: #F8FAFC;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
