@@ -1,0 +1,139 @@
+header {
+    background-color: #3B82F6;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-family: "Google Sans", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 50px;
+    padding-left: 35px;
+}
+
+#LMS {
+    padding-left: 10px;
+    font-style: normal;
+}
+
+.Menu {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.Menu a {
+    text-decoration: none;
+    color: #F8FAFC;
+    margin-left: 15px;
+    font-size: 16px;
+}
+
+.Menumain {
+    text-decoration: none;
+    color: #F8FAFC;
+}
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    color: #1E293B;
+    background-color: #F8FAFC;
+}
+
+.catalogue {
+    padding: 55px 20px;
+    text-align: center;
+    background-color: #EFF6FF;
+}
+
+.catalogue h2 {
+    font-size: 34px;
+    margin-bottom: 8px;
+}
+
+.catalogue > p {
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+.search input {
+    width: 400px;
+    padding: 12px;
+    border: 1px solid #CBD5E1;
+    border-radius: 5px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+
+.btn {
+    background-color: #3B82F6;
+    color: #F8FAFC;
+    text-decoration: none;
+    padding: 12px 28px;
+    border-radius: 5px;
+}
+
+.books {
+    max-width: 950px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.book {
+    background-color: white;
+    width: 220px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    text-align: left;
+}
+
+.book-cover {
+    height: 130px;
+    background-color: #DBEAFE;
+    color: #1D4ED8;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Google Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.book h3 {
+    margin-bottom: 8px;
+}
+
+.book p {
+    color: #64748B;
+    margin-top: 0;
+}
+
+.book-btn {
+    display: inline-block;
+    background-color: #3B82F6;
+    color: #F8FAFC;
+    text-decoration: none;
+    padding: 9px 18px;
+    border-radius: 5px;
+    margin-top: 8px;
+}
+
+footer {
+    background-color: #3B82F6;
+    color: #F8FAFC;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
