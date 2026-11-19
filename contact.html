@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - LMS</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1><a href="Index.html" class="Menumain" id="LMS">LMS</a></h1>
+        <div class="Menu">
+            <a href="Index.html">Home</a>
+            <a href="#">Explore</a>
+            <a href="#">Resources</a>
+            <a href="#">About Us</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </header>
+
+    <!-- Page heading -->
+    <section class="contact-hero">
+        <h2>Contact Us</h2>
+        <p>Have a question about booking a seat or a library resource? Get in touch with us.</p>
+    </section>
+
+    <!-- Contact details + form side by side -->
+    <section class="contact-main">
+
+        <!-- Left side: details -->
+        <div class="contact-info">
+            <h3>Get in Touch</h3>
+            <p><strong>Email:</strong> library@lms-example.com</p>
+            <p><strong>Phone:</strong> +91 98765 43210</p>
+
+            <h3>Library Opening Hours</h3>
+            <p>Monday - Friday: 8:00 AM - 8:00 PM</p>
+            <p>Saturday: 9:00 AM - 5:00 PM</p>
+            <p>Sunday: Closed</p>
+
+            <h3>Follow Us</h3>
+            <div class="social">
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+                <a href="#">LinkedIn</a>
+            </div>
+        </div>
+
+        <!-- Right side: form -->
+        <div class="contact-form">
+            <h3>Send Us a Message</h3>
+            <form action="#" method="post">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Type your message here" required></textarea>
+
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq">
+        <h2>Frequently Asked Questions</h2>
+
+        <details>
+            <summary>How do I book a seat?</summary>
+            <p>Log in with your student account, open the seat map, pick a free seat and choose a time slot.</p>
+        </details>
+
+        <details>
+            <summary>What happens if I do not arrive on time?</summary>
+            <p>The seat is released automatically when your booking time ends, so other students can use it.</p>
+        </details>
+
+        <details>
+            <summary>Can I cancel my booking?</summary>
+            <p>Yes. Open your booking history and cancel the reservation before the slot starts.</p>
+        </details>
+
+        <details>
+            <summary>Who can use this system?</summary>
+            <p>Students can book seats and resources. Library staff use the admin dashboard to manage them.</p>
+        </details>
+    </section>
+
+    <footer>
+        <p>CSE326 Project | Lovely Professional University</p>
+        <p>&copy; 2026 LMS - Library Seat &amp; Resource Booking System</p>
+    </footer>
+</body>
+</html>
