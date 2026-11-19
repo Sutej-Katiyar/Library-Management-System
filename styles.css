@@ -35,7 +35,6 @@ body {
     color: #1E293B;
 }
 
-/* Hero */
 .hero {
     text-align: center;
     padding: 80px 20px;
@@ -89,4 +88,81 @@ footer {
     text-align: center;
     padding: 20px;
     margin-top: 40px;
+}
+
+.contact-hero {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #EFF6FF;
+}
+
+.contact-main {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+}
+
+.contact-info,
+.contact-form {
+    width: 350px;
+}
+
+.contact-info h3,
+.contact-form h3 {
+    margin-bottom: 10px;
+    color: #3B82F6;
+}
+
+.social a {
+    color: #3B82F6;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.contact-form label {
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #CBD5E1;
+    border-radius: 5px;
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+}
+
+.contact-form button {
+    margin-top: 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.faq {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+.faq h2 {
+    text-align: center;
+}
+
+.faq details {
+    background-color: #F8FAFC;
+    border: 1px solid #E2E8F0;
+    border-radius: 5px;
+    padding: 12px 15px;
+    margin-bottom: 10px;
+}
+
+.faq summary {
+    cursor: pointer;
+    font-weight: bold;
 }
